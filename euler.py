@@ -9,4 +9,7 @@ def is_prime(n):
             return False
         p += 2
     return True
-    
+
+def is_palindrome(i):
+    s = str(i)
+    return s[::-1] == s
